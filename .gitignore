@@ -1,0 +1,41 @@
+# web application files
+/web-app/WEB-INF/classes
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+
+# "temporary" build files
+/target
+/build
+
+.gradle
+.project
+.classpath
+.idea/
+aptness-grailsPlugins.iml
+aptness.iml
+.DS_Store
+coverage-error.log
+cobertura.ser
+out/
+*.iml
